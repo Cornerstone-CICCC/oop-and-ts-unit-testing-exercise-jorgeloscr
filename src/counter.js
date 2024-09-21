@@ -3,7 +3,7 @@ function counter(number, direction) {
     let current = direction === 'increment' ? 0 : number
 
     function updateCounter() {
-      console.log(current)
+      // console.log(current)
       if (direction === 'increment' && current < number) {
         current++
         setTimeout(updateCounter, 1000)
